@@ -1,7 +1,7 @@
 # PostCmp — 岗位深度对比
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.2.0-brightgreen)](https://github.com/kaXianc2-gom/post-cmp/releases)
+[![Version](https://img.shields.io/badge/version-1.2.1-brightgreen)](https://github.com/kaXianc2-gom/post-cmp/releases)
 [![Pages](https://img.shields.io/badge/demo-online-0078D4)](https://kaXianc2-gom.github.io/post-cmp/)
 
 > 拖入 Excel，选两个岗位，雷达图加多维评分对比。帮你决定报哪个。
