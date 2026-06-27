@@ -576,7 +576,10 @@ function renderRadar() {
       axisName: { color: textColor, fontSize: 12, fontWeight: 600 },
       splitArea: { areaStyle: { color: isDark ? ['rgba(255,255,255,0.02)','rgba(255,255,255,0.04)'] : ['rgba(0,0,0,0.02)','rgba(0,0,0,0.04)'] } }
     },
-    series: [{ type: 'radar', data: seriesData, emphasis: { lineStyle: { width: 3 } } }]
+    series: [{ type: 'radar', data: seriesData, emphasis: { lineStyle: { width: 3 } } }],
+    animationDuration: 800,
+    animationEasing: 'cubicOut',
+    animationDurationUpdate: 500
   };
 
   STATE.chartInstance.setOption(option, true);
