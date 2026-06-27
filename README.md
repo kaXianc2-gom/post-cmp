@@ -1,5 +1,9 @@
 # PostCmp — 岗位深度对比
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.2.0-brightgreen)](https://github.com/kaXianc2-gom/post-cmp/releases)
+[![Pages](https://img.shields.io/badge/demo-online-0078D4)](https://kaXianc2-gom.github.io/post-cmp/)
+
 > 拖入 Excel，选两个岗位，雷达图加多维评分对比。帮你决定报哪个。
 
 单文件 HTML，双击即用。上传职位表后选择岗位 A 和 B，六维雷达图直观对比。
@@ -23,6 +27,18 @@
 | 面试比例 | 面试占比越低 → 笔试优势越明显 |
 
 每维度 1-5 分，加权总分直接告诉你该选哪个。
+
+## 🌐 在线体验
+
+无需下载，直接使用：**[🔗 在线 Demo](https://kaXianc2-gom.github.io/post-cmp/)**
+
+## 🔐 隐私声明
+
+- **数据不上传**：所有岗位对比、评分计算均在浏览器本地内存中完成
+- **无网络请求**：ECharts 已内联，运行时零外部请求
+- **无持久化存储**：关闭浏览器后数据自动清除
+
+> ⚠️ **免责声明**：本工具仅供岗位信息对比参考，不构成报考决策建议。以官方发布信息为准。
 
 ## 技术
 
